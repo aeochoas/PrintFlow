@@ -1,0 +1,40 @@
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+backend/target/
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Variables de entorno y secretos
+.env
+.env.*
+!.env.example
+
+# PostgreSQL y Docker
+*.dump
+*.sql.backup
+
+# Archivos temporales
+*.tmp
+*.swp
+*.bak
+
+# Claude
+.claude/settings.local.json
